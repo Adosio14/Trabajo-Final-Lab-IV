@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntrepeneurHero")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95a0e283a87b94b461c73955e3da8307f88a84ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50ccd185e9b3bc6c40d8b8a9da59dbd2ddb27081")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntrepeneurHero")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntrepeneurHero")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

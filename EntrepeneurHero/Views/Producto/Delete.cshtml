@@ -1,4 +1,4 @@
-﻿@model EntrepeneurHero.Models.Cliente
+﻿@model EntrepeneurHero.Models.Producto
 
 @{
     ViewData["Title"] = "Eliminar";
@@ -7,9 +7,9 @@
 
 <h1>Eliminar</h1>
 
-<h3>¿Seguro que desea eliminar este cliente?</h3>
+<h3>¿Seguro que desea eliminar este producto?</h3>
 <div>
-    <h4>Cliente</h4>
+    <h4>Producto</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -19,28 +19,16 @@
             @Html.DisplayFor(model => model.Nombre)
         </dd>
         <dt class = "col-sm-2">
-            Correo Electrónico
+            Descripción
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CorreoElectronico)
+            @Html.DisplayFor(model => model.Descripcion)
         </dd>
         <dt class = "col-sm-2">
-            Teléfono
+            @Html.DisplayNameFor(model => model.Precio)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Telefono)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Empresa)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Empresa)
-        </dd>
-        <dt class = "col-sm-2">
-           Dirección
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Direccion)
+            @Html.DisplayFor(model => model.Precio)
         </dd>
     </dl>
     
