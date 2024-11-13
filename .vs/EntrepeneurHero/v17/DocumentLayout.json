@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\projects\\EntrepeneurHero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\entrepeneurhero.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\entrepeneurhero.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|c:\\projects\\entrepeneurhero\\entrepeneurhero\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046C08C3-2829-48E8-8C9F-049CBE6B82A0}|EntrepeneurHero\\EntrepeneurHero.csproj|solutionrelative:entrepeneurhero\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +46,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "EntrepeneurHero\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "EntrepeneurHero\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAA5wEMAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T22:36:10.136Z",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EntrepeneurHero\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EntrepeneurHero\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T22:30:36.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EntrepeneurHero\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "EntrepeneurHero\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "EntrepeneurHero\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-30T22:34:33.427Z",
               "EditorCaption": ""
@@ -57,19 +77,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EntrepeneurHero",
-              "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\EntrepeneurHero.csproj",
-              "RelativeDocumentMoniker": "EntrepeneurHero\\EntrepeneurHero.csproj",
-              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\EntrepeneurHero.csproj",
-              "RelativeToolTip": "EntrepeneurHero\\EntrepeneurHero.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-30T22:32:54.549Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "EntrepeneurHero\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "EntrepeneurHero\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T22:36:01.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "EntrepeneurHero\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "EntrepeneurHero\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-31T22:48:25.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\tailwind.config.js",
+              "RelativeDocumentMoniker": "EntrepeneurHero\\tailwind.config.js",
+              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\tailwind.config.js",
+              "RelativeToolTip": "EntrepeneurHero\\tailwind.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-31T22:27:34.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntrepeneurHero.csproj",
+              "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\EntrepeneurHero.csproj",
+              "RelativeDocumentMoniker": "EntrepeneurHero\\EntrepeneurHero.csproj",
+              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\EntrepeneurHero.csproj",
+              "RelativeToolTip": "EntrepeneurHero\\EntrepeneurHero.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-30T22:32:54.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\package.json",
+              "RelativeDocumentMoniker": "EntrepeneurHero\\package.json",
+              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\package.json",
+              "RelativeToolTip": "EntrepeneurHero\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-31T22:26:32.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "EntrepeneurHero\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "EntrepeneurHero\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwFMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:36:10.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\Program.cs",
               "RelativeDocumentMoniker": "EntrepeneurHero\\Program.cs",
@@ -77,8 +158,7 @@
               "RelativeToolTip": "EntrepeneurHero\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T22:32:22.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T22:32:22.345Z"
             }
           ]
         }

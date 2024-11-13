@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EntrepeneurHero.bundle.scp.css"
     },
     {
+      "Id": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\wwwroot\\css\\output.css",
+      "PackagePath": "staticwebassets\\css\\output.css"
+    },
+    {
       "Id": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

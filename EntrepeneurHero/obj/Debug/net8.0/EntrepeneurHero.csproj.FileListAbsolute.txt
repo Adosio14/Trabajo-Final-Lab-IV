@@ -265,3 +265,6 @@ C:\projects\EntrepeneurHero\EntrepeneurHero\bin\Debug\net8.0\runtimes\win\lib\ne
 C:\projects\EntrepeneurHero\EntrepeneurHero\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\projects\EntrepeneurHero\EntrepeneurHero\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\projects\EntrepeneurHero\EntrepeneurHero\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\projects\EntrepeneurHero\EntrepeneurHero\bin\Debug\net8.0\package-lock.json
+C:\projects\EntrepeneurHero\EntrepeneurHero\bin\Debug\net8.0\package.json
+C:\projects\EntrepeneurHero\EntrepeneurHero\obj\Debug\net8.0\EntrepeneurHero.sourcelink.json

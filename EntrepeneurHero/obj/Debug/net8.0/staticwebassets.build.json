@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TaY91r0iM6eM9yJElXuT3ni89rBJoYivLT47LFGsSbA=",
+  "Hash": "fkW2F5xxoggpks6BkKRm33VyXEWIsQ4mJvVlXnMYxzU=",
   "Source": "EntrepeneurHero",
   "BasePath": "_content/EntrepeneurHero",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EntrepeneurHero.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\wwwroot\\css\\output.css",
+      "SourceId": "EntrepeneurHero",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\wwwroot\\",
+      "BasePath": "_content/EntrepeneurHero",
+      "RelativePath": "css/output.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\output.css"
     },
     {
       "Identity": "C:\\projects\\EntrepeneurHero\\EntrepeneurHero\\wwwroot\\css\\site.css",
