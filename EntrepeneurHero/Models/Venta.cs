@@ -2,6 +2,11 @@
 {
     public class Venta
     {
+        public Venta()
+        {
+            ProductosVenta = [];
+        }
+
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
         public decimal MontoTotal { get; set; }
