@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EntrepeneurHero.Data;
 using EntrepeneurHero.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EntrepeneurHero.Controllers
 {
+    [Authorize]
     public class PresupuestoController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -87,7 +85,7 @@ namespace EntrepeneurHero.Controllers
                 _context.Presupuestos.Add(presupuesto);
                 await _context.SaveChangesAsync();
 
-                // Add selected products to ProductoPresupuesto
+                // Añado los productos a ProductoPresupuesto
                 foreach (var producto in viewModel.Productos.Where(p => p.IsSelected))
                 {
                     var productoPresupuesto = new ProductoPresupuesto

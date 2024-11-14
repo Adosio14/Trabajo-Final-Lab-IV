@@ -2,9 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 using EntrepeneurHero.Data;
 using EntrepeneurHero.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EntrepeneurHero.Controllers
 {
+    [Authorize]
     public class ProductoController : Controller
     {
         private readonly ApplicationDbContext _context;
