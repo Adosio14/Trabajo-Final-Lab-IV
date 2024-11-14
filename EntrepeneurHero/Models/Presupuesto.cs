@@ -2,6 +2,12 @@
 {
     public class Presupuesto
     {
+
+        public Presupuesto()
+        {
+            ProductosPresupuesto = [];
+        }
+
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
         public decimal TotalEstimado { get; set; }

@@ -1,0 +1,111 @@
+﻿@model PresupuestoCreateViewModel
+@{
+	ViewData["Title"] = "Crear Presupuesto";
+}
+
+<h2>Crear Presupuesto</h2>
+
+<form asp-action="Create" method="post">
+	<div class="form-group">
+		<label asp-for="Fecha" class="control-label">Fecha</label>
+		<input asp-for="Fecha" class="form-control" type="date" />
+		<span asp-validation-for="Fecha" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="ClienteId" class="control-label">Cliente</label>
+		<select asp-for="ClienteId" class="form-control"
+				asp-items="@ViewBag.Clientes"></select>
+		<span asp-validation-for="ClienteId" class="text-danger"></span>
+	</div>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Seleccionar</th>
+				<th>Producto</th>
+				<th>Precio</th>
+				<th>Cantidad</th>
+				<th>Subtotal</th>
+			</tr>
+		</thead>
+		<tbody>
+			@for (int i = 0; i < Model.Productos.Count; i++)
+			{
+				<tr>
+					<td>
+						<input type="hidden" asp-for="@Model.Productos[i].ProductoId" />
+						<input type="hidden" asp-for="@Model.Productos[i].Nombre" />
+						<input type="hidden" asp-for="@Model.Productos[i].Precio" />
+						<input type="checkbox" asp-for="@Model.Productos[i].IsSelected" class="product-selector" />
+					</td>
+					<td>@Model.Productos[i].Nombre</td>
+					<td data-price="@Model.Productos[i].Precio">@Model.Productos[i].Precio.ToString("C")</td>
+					<td>
+						<input type="number" asp-for="@Model.Productos[i].Cantidad"
+							   class="form-control quantity-input" min="0" value="0"
+							   disabled="@(!Model.Productos[i].IsSelected)" />
+					</td>
+					<td class="subtotal">$0.00</td>
+				</tr>
+			}
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="4" class="text-right"><strong>Total:</strong></td>
+				<td id="total">$0.00</td>
+			</tr>
+		</tfoot>
+	</table>
+
+	<div class="form-group">
+		<input type="submit" value="Crear Presupuesto" class="btn btn-primary" />
+	</div>
+</form>
+
+@section Scripts {
+	<script>
+		$(document).ready(function () {
+			// Enable/disable quantity input when checkbox is clicked
+			$('.product-selector').change(function () {
+				var quantityInput = $(this).closest('tr').find('.quantity-input');
+				quantityInput.prop('disabled', !$(this).is(':checked'));
+				if (!$(this).is(':checked')) {
+					quantityInput.val(0);
+				}
+				updateSubtotals();
+			});
+
+			// Update subtotals when quantity changes
+			$('.quantity-input').change(function () {
+				updateSubtotals();
+			});
+
+			function updateSubtotals() {
+				var total = 0;
+				$('.table tbody tr').each(function () {
+					var isSelected = $(this).find('.product-selector').is(':checked');
+					var quantity = parseInt($(this).find('.quantity-input').val()) || 0;
+					// Use the data-price attribute instead of parsing the displayed text
+					var price = parseFloat($(this).find('td:eq(2)').data('price'));
+
+					var subtotal = isSelected ? (quantity * price) : 0;
+
+					$(this).find('.subtotal').text(formatCurrency(subtotal));
+					total += subtotal;
+				});
+
+				$('#total').text(formatCurrency(total));
+			}
+
+			function formatCurrency(value) {
+				return new Intl.NumberFormat('es-AR', {
+					style: 'currency',
+					currency: 'ARS',
+					minimumFractionDigits: 2,
+					maximumFractionDigits: 2
+				}).format(value);
+			}
+		});
+	</script>
+}

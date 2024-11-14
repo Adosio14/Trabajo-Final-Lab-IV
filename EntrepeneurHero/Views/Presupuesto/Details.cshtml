@@ -1,0 +1,55 @@
+﻿@model Presupuesto
+@{
+    ViewData["Title"] = "Detalles del Presupuesto";
+}
+
+<h2>Detalles del Presupuesto</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Fecha:</dt>
+        <dd class="col-sm-10">@Model.Fecha.ToShortDateString()</dd>
+
+        <dt class="col-sm-2">Cliente:</dt>
+        <dd class="col-sm-10">@Model.Cliente.Nombre</dd>
+
+        <dt class="col-sm-2">Total Estimado:</dt>
+        <dd class="col-sm-10">@Model.TotalEstimado.ToString("C")</dd>
+
+        <dt class="col-sm-2">Estado:</dt>
+        <dd class="col-sm-10">@(Model.Aprobado ? "Aprobado" : "Pendiente")</dd>
+    </dl>
+
+    <h3>Productos</h3>
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>Producto</th>
+                <th>Precio Unitario</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ProductosPresupuesto)
+            {
+                <tr>
+                    <td>@item.Producto.Nombre</td>
+                    <td>@item.Producto.Precio.ToString("C")</td>
+                    <td>@item.Cantidad</td>
+                    <td>@((item.Producto.Precio * item.Cantidad).ToString("C"))</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right"><strong>Total:</strong></td>
+                <td><strong>@Model.TotalEstimado.ToString("C")</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+</div>
